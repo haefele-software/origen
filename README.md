@@ -8,7 +8,7 @@
 
 A zero dependency, React utility library, filled with useful hooks to make your React experience even better.
 
-### `useBoolValue`
+#### `useBoolValue`
 
 > For maintaining the value of a boolean and being able to toggle it's value between `true` and `false`;
 
@@ -27,7 +27,7 @@ export default function App() {
 
 ---
 
-### `useMousePosition`
+#### `useMousePosition`
 
 > For getting the current `x` and `y` coordinates of the mouse cursor.
 ```js
@@ -45,7 +45,7 @@ export default function App() {
 
 ---
 
-### `useWindowDimensions`
+#### `useWindowDimensions`
 
 > For getting the current `width` and `height` values of the window.
 
