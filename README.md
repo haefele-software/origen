@@ -25,6 +25,39 @@ export default function App() {
 }
 ```
 
+### `useMousePosition`
+
+> For getting the current `x` and `y` coordinates of the mouse cursor.
+```js
+export default function App() {
+  const mousePosition = useMousePosition();
+
+  return (
+    <div>
+      <h1>Width: {mousePosition.x}</h1>
+      <h1>Height: {mousePosition.y}</h1>   
+    </div>
+  );
+}
+```
+
+### `useWindowDimensions`
+
+> For getting the current `width` and `height` values of the window.
+
+```js
+export default function App() {
+  const dimensions = useWindowDimensions();
+
+  return (
+    <div>
+      <h1>Width: {dimensions.width}</h1>
+      <h1>Height: {dimensions.height}</h1>      
+    </div>
+  );
+}
+```
+
 ## License
 
 ORIGEN is [MIT licensed](./LICENSE).
