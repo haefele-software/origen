@@ -1,6 +1,6 @@
 {
   "name": "origen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A utility library of various React hooks.",
   "main": "src/index.js",
   "scripts": {
