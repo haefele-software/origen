@@ -25,6 +25,8 @@ export default function App() {
 }
 ```
 
+---
+
 ### `useMousePosition`
 
 > For getting the current `x` and `y` coordinates of the mouse cursor.
@@ -40,6 +42,8 @@ export default function App() {
   );
 }
 ```
+
+---
 
 ### `useWindowDimensions`
 
