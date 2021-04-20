@@ -10,7 +10,7 @@ A utility library, full of useful hooks to make your React experience even bette
 
 > For maintaining the value of a boolean and being able to toggle it's value between `true` and `false`;
 
-```
+```js
 export default function App() {
   const [value, toggleValue] = useBoolValue(false);
 
