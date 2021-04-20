@@ -1,7 +1,7 @@
-import { useBoolValue, useMousePosition, useWindowDimensions } from './hooks';
+import { useToggle, useMousePosition, useWindowDimensions } from './hooks';
 
 export {
-    useBoolValue,
+    useToggle,
     useMousePosition,
     useWindowDimensions
 };

@@ -1,8 +1,7 @@
 import React from 'react';
 import { windowEvents } from '../utils/constants';
 
-export default function useWindowDimensions() {
-    const [windowDimensions, setWindowDimensions] = React.useState(getWindowDimensions());
+function useWindowDimensions() {
     const hasWindow = typeof window !== 'undefined';
 
     const getWindowDimensions = () => {
@@ -11,6 +10,8 @@ export default function useWindowDimensions() {
 
         return { width, height };
     }
+
+    const [windowDimensions, setWindowDimensions] = React.useState(getWindowDimensions());
 
     React.useEffect(() => {
         if (hasWindow) {
@@ -23,3 +24,5 @@ export default function useWindowDimensions() {
 
     return windowDimensions;
 }
+
+export default useWindowDimensions;

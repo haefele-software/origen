@@ -1,7 +1,7 @@
 import React from "react";
 import { windowEvents } from '../utils/constants';
 
-const useMousePosition = () => {
+function useMousePosition() {
     const [mousePosition, setMousePosition] = React.useState({ x: null, y: null });
 
     const updateMousePosition = (event) => setMousePosition({ x: event.clientX, y: event.clientY });

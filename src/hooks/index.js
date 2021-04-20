@@ -1,9 +1,9 @@
-import useBoolValue from './useBoolValue';
+import useToggle from './useToggle';
 import useMousePosition from './useMousePosition';
 import useWindowDimensions from './useWindowDimensions';
 
 export {
-    useBoolValue,
+    useToggle,
     useMousePosition,
     useWindowDimensions
 };
