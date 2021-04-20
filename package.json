@@ -1,7 +1,7 @@
 {
   "name": "origen",
-  "version": "0.0.2",
-  "description": "A utility library of various React hooks.",
+  "version": "0.0.3",
+  "description": "A zero dependency, React utility library, filled with useful hooks to make your React experience even better.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,6 @@
     "url": "git+https://github.com/haefele-software/origen.git"
   },
   "dependencies": {
-    "crypto-js": "^4.0.0",
     "react": "^16.13.1"
   },
   "bugs": {
@@ -21,6 +20,7 @@
   },
   "homepage": "https://github.com/haefele-software/origen#readme",
   "keywords": [
-    "react"
+    "react",
+    "react-hooks"
   ]
 }
