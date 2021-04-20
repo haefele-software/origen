@@ -1,6 +1,6 @@
 import { useBoolValue, useMousePosition, useWindowDimensions } from './hooks';
 
-export default {
+export {
     useBoolValue,
     useMousePosition,
     useWindowDimensions
