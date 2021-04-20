@@ -8,20 +8,20 @@
 
 A zero dependency, React utility library, filled with useful hooks to make your React experience even better.
 
-#### `useBoolValue`
+#### `useToggle`
 
 > For maintaining the value of a boolean and being able to toggle it's value between `true` and `false`;
 
 ```js
-import { useBoolValue } from 'origen';
+import { useToggle } from 'origen';
 
 export default function App() {
-  const [value, toggleValue] = useBoolValue(false);
+  const [value, toggle] = useToggle(false);
 
   return (
     <div>
       <h1>My value is: {value}</h1>
-      <button onClick={toggleValue}>Toggle</button>
+      <button onClick={toggle}>Toggle</button>
     </div>
   );
 }
