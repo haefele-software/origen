@@ -13,6 +13,8 @@ A zero dependency, React utility library, filled with useful hooks to make your 
 > For maintaining the value of a boolean and being able to toggle it's value between `true` and `false`;
 
 ```js
+import { useBoolValue } from 'origen';
+
 export default function App() {
   const [value, toggleValue] = useBoolValue(false);
 
@@ -31,6 +33,8 @@ export default function App() {
 
 > For getting the current `x` and `y` coordinates of the mouse cursor.
 ```js
+import { useMousePosition } from 'origen';
+
 export default function App() {
   const mousePosition = useMousePosition();
 
@@ -50,6 +54,8 @@ export default function App() {
 > For getting the current `width` and `height` values of the window.
 
 ```js
+import { useWindowDimensions } from 'origen';
+
 export default function App() {
   const dimensions = useWindowDimensions();
 
