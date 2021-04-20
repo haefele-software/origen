@@ -1,7 +1,7 @@
 {
-  "name": "mvmt",
+  "name": "origen",
   "version": "0.0.1",
-  "description": "A utility library to help you write React code.",
+  "description": "A utility library of various React hooks.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,16 +10,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haefele-software/mvmt.git"
+    "url": "git+https://github.com/haefele-software/origen.git"
   },
   "dependencies": {
     "crypto-js": "^4.0.0",
     "react": "^16.13.1"
   },
   "bugs": {
-    "url": "https://github.com/haefele-software/mvmt/issues"
+    "url": "https://github.com/haefele-software/origen/issues"
   },
-  "homepage": "https://github.com/haefele-software/mvmt#readme",
+  "homepage": "https://github.com/haefele-software/origen#readme",
   "keywords": [
     "react"
   ]
