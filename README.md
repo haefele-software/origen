@@ -8,7 +8,7 @@
 
 ### useBoolValue
 
-For maintaining the value of a boolean and being able to toggle it's value between `true` and `false`;
+> For maintaining the value of a boolean and being able to toggle it's value between `true` and `false`;
 
 ```
 export default function App() {
