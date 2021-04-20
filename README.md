@@ -4,7 +4,7 @@
   <img alt="" src="https://badgen.net/bundlephobia/minzip/origen@latest" />
 </a>
 
-## Hooks
+A utility library, full of useful hooks to make your React experience even better.
 
 ### `useBoolValue`
 
